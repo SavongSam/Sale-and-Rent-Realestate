@@ -12,7 +12,6 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-    <script src="{{ asset('js/function.js') }}" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
@@ -22,6 +21,8 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/customstyle.css') }}" rel="stylesheet">
+    
 </head>
 <body>
     <div id="app">
@@ -75,11 +76,9 @@
         </nav>
 
         <main class="py-4">
+                
             @yield('content')
         </main>
     </div>
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_eRypqxkNAO7gxqbjtJF2IkDIEg3L73o&v=3&callback=initMap">
-    </script>
 </body>
 </html>

@@ -9,33 +9,33 @@ $(".dropdown-menu li a").click(function(){
  * Created by Sam Savong on 12/4/2017.
  */
 $(function () {
-    var map;
-    function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: 11.525779, lng: 104.908512},
-            zoom: 20,
-        });
+//     var map;
+//     function initMap() {
+//         map = new google.maps.Map(document.getElementById('map'), {
+//             center: {lat: 11.525779, lng: 104.908512},
+//             zoom: 20,
+//         });
 
-        // the sentence below are control Option
-        var mapOptions = {
-            center: new google.maps.LatLng(11.525779, 104.908512),
-            zoom: 10,
-            panControl: true,
-            zoomControl: true,
-            mapTypeControl: true,
-            scaleControl: true,
-            streetViewControl: true,
-            overviewMapControl: true,
-            rotateControl: true
-        };
+//         // the sentence below are control Option
+//         var mapOptions = {
+//             center: new google.maps.LatLng(11.525779, 104.908512),
+//             zoom: 10,
+//             panControl: true,
+//             zoomControl: true,
+//             mapTypeControl: true,
+//             scaleControl: true,
+//             streetViewControl: true,
+//             overviewMapControl: true,
+//             rotateControl: true
+//         };
 
-        var map = new google.maps.Map(document.getElementById("map"),mapOptions);
-        map.setMap;
-        map.setTilt;
-        // the three line below use to set up the marker at Phnom Penh
-        var myCenter = new google.maps.LatLng(11.525779, 104.908512);
-        var marker = new google.maps.Marker({position:myCenter});
-    }
+//         var map = new google.maps.Map(document.getElementById("map"),mapOptions);
+//         map.setMap;
+//         map.setTilt;
+//         // the three line below use to set up the marker at Phnom Penh
+//         var myCenter = new google.maps.LatLng(11.525779, 104.908512);
+//         var marker = new google.maps.Marker({position:myCenter});
+//     }
 
     // 
     var map;
